@@ -40,6 +40,9 @@ function Get-ItemInventory
 
         .EXAMPLE
             PS C:\> Get-ItemInventory -Path "C:\lib" -Inclue *.ps1 -Exclude *.cmd -GuidBaseName -Recurse -DisplayResults 
+            
+        .NOTES
+            Author: Xenirvana
     #>
 
     [CmdletBinding()]
